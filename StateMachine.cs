@@ -97,7 +97,7 @@ public class StateMachine : MonoBehaviour {
 }
 
 //
-// Custom inspector which allows us to choose a initial state type by dragging a script into the 'Initial State Type' field.
+// Custom inspector which allows us to choose an initial state type by dragging a script into the 'Initial State Type' field.
 //
 #if UNITY_EDITOR
 [ CustomEditor( typeof( StateMachine ) ) ]
